@@ -16,3 +16,31 @@
 		}
 	}
 }
+
+@media (max-width: 805px) {
+	.sort__btn_wrap {
+		.sort__btn_content {
+			margin: 35px 5px;
+			.sort__btn_title h2 {
+				font-size: 1rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.sort__btn_wrap {
+		.sort__btn_content {
+			margin: 35px 5px;
+			.sort__btn_title h2 {
+				font-size: .8rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 400px) {
+	.sort__btn_wrap {
+		width: 35%;
+	}
+}
